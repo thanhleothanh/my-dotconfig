@@ -1,0 +1,10 @@
+set scrolloff=8
+set scroll=10
+set relativenumber
+set noerrorbells
+set visualbell
+set number
+set nohlsearch
+set incsearch
+set ignorecase
+set smartcase
