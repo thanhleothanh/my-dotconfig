@@ -1,4 +1,5 @@
 .DS_Store
 raycast/extensions
+raycast/config.json
 jgit/
 karabiner/automatic_backups/

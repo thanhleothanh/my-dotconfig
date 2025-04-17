@@ -52,6 +52,10 @@ key-mapping.preset = 'qwerty'
 # run = ['layout floating', 'move-node-to-workspace S']  # The callback itself
 
 [[on-window-detected]]
+if.app-name-regex-substring = 'libreoffice'
+run = 'layout tiling'
+
+[[on-window-detected]]
 if.app-name-regex-substring = 'finder'
 run = 'layout floating'
 
@@ -96,6 +100,14 @@ if.app-name-regex-substring = 'obs'
 run = 'layout floating'
 
 [[on-window-detected]]
+if.app-name-regex-substring = 'elmedia'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'quicktime'
+run = 'layout floating'
+
+[[on-window-detected]]
 if.app-name-regex-substring = 'preview'
 run = 'layout floating'
 
@@ -105,6 +117,10 @@ run = 'layout floating'
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'karabiner'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'postman'
 run = 'layout floating'
 
 [[on-window-detected]]
@@ -119,12 +135,12 @@ run = 'layout floating'
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-inner.horizontal = 3
-inner.vertical =   3
-outer.left =       3
-outer.bottom =     3
-outer.top =        3
-outer.right =      3
+inner.horizontal = 5
+inner.vertical =   5
+outer.left =       7
+outer.bottom =     7
+outer.top =        7
+outer.right =      7
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
