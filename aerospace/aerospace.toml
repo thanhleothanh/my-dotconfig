@@ -127,6 +127,10 @@ run = 'layout floating'
 if.app-name-regex-substring = 'zoom'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-name-regex-substring = 'terminal'
+run = 'move-node-to-workspace t'
+
 # Gaps between windows (inner-*) and between monitor edges (outer-*).
 # Possible values:
 # - Constant:     gaps.outer.top = 8
@@ -184,7 +188,7 @@ alt-shift-1 = 'workspace 1'
 alt-shift-2 = 'workspace 2'
 alt-shift-3 = 'workspace 3'
 alt-shift-4 = 'workspace 4'
-
+alt-shift-t = 'workspace t'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 ctrl-alt-shift-1 = ['move-node-to-workspace 1', 'workspace 1']
 ctrl-alt-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
