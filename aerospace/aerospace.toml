@@ -124,6 +124,18 @@ if.app-name-regex-substring = 'postman'
 run = 'layout floating'
 
 [[on-window-detected]]
+if.app-name-regex-substring = 'VinBus'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'Riot'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'League'
+run = 'layout floating'
+
+[[on-window-detected]]
 if.app-name-regex-substring = 'zoom'
 run = 'layout floating'
 
@@ -139,12 +151,12 @@ run = 'move-node-to-workspace t'
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
 [gaps]
-inner.horizontal = 5
-inner.vertical =   5
-outer.left =       7
-outer.bottom =     7
-outer.top =        7
-outer.right =      7
+inner.horizontal = 3
+inner.vertical =   3
+outer.left =       3
+outer.bottom =     3
+outer.top =        3
+outer.right =      3
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes

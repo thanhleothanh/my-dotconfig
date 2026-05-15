@@ -418,6 +418,7 @@
                     },
                     {
                         "description": "Left_control + Left_shift to trigger Left_option + z (change input source, cancel if any other key is also pressed",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
