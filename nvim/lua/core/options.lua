@@ -1,0 +1,19 @@
+local opt = vim.opt
+
+opt.relativenumber = true
+opt.number = true
+opt.showmatch = true
+opt.hlsearch = false
+opt.incsearch = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.scrolloff = 10
+opt.scroll = 10
+opt.expandtab = true
+opt.shiftwidth = 4
+opt.autoindent = true
+opt.mouse = "a"
+opt.errorbells = false
+opt.visualbell = true
