@@ -47,6 +47,13 @@ return {
         update_root = false,
         ignore_list = {},
       },
+      view = {
+        signcolumn = "no",
+        adaptive_size = true,
+      },
+      renderer = {
+        indent_width = 1,
+      },
     })
   end,
 }
