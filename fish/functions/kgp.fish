@@ -1,4 +1,3 @@
 function kgp --wraps='kubectl get pods' --description 'alias kgp=kubectl get pods'
-  kubectl get pods $argv
-        
+  kubectl get pod $argv
 end
