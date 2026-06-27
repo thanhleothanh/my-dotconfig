@@ -1,5 +1,6 @@
 local opt = vim.opt
 
+opt.autowriteall = true 
 opt.relativenumber = true
 opt.number = true
 opt.showmatch = true

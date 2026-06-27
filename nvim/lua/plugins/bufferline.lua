@@ -23,16 +23,6 @@ return {
         },
         offsets_use_relative_path = false
       },
-      highlights = {
-        fill = {
-          bg = "#1e1e2e",
-        },
-        buffer_selected = {
-          fg = "#cdd6f4",
-          bg = "#313244",
-          bold = true,
-        },
-      },
     })
   end,
 }

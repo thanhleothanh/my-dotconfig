@@ -3,7 +3,7 @@ return {
   config = function()
     require("neoscroll").setup({
       easing = "quadratic",
-      duration_multiplier = 0.5,
+      duration_multiplier = 0.3,
     })
   end,
 }
