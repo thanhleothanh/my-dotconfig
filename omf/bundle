@@ -1,3 +1,6 @@
 package bass
+package extract
+package jorgebucaran/autopair.fish
+package meaningful-ooo/sponge
 package z
 theme default

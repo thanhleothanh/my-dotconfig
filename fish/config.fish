@@ -14,6 +14,7 @@ if status is-interactive
     abbr -a grs git reset --soft
     abbr -a grst git restore --staged
     abbr -a gs git status
+    abbr -a gd git diff HEAD
 
     # kubectl
     abbr -a k kubectl
@@ -26,7 +27,7 @@ if status is-interactive
     abbr -a kdp kubectl describe pod
     abbr -a kds kubectl describe secret
     abbr -a kdsvc kubectl describe svc
-    abbr -a kex kubectl exec -it -- /bin/bash
+    abbr -a kex kubectl exec -it xxxxxx -- /bin/bash
     abbr -a kgd kubectl get deployments
     abbr -a kgn kubectl get nodes
     abbr -a kgns kubectl get namespaces
@@ -34,6 +35,19 @@ if status is-interactive
     abbr -a kgs kubectl get secrets
     abbr -a kgsvc kubectl get svc
     abbr -a kl kubectl logs
+
+    # docker
+    abbr -a d docker
+    abbr -a dps docker ps
+    abbr -a dex docker exec -it xxxxxx /bin/bash
+    abbr -a dl docker logs
+    abbr -a drm docker rm
+    abbr -a dst docker stop
+    abbr -a dirm docker image rm
+    abbr -a dils docker image ls
+    abbr -a dcom docker compose
+    abbr -a dcomd docker compose down
+    abbr -a dcomu docker compose up -d --build
 
     # utility
     abbr -a lsa ls -la
