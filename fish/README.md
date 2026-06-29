@@ -1,16 +1,21 @@
 # install fish
 ```bash
-sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt-add-repository ppa:fish-shell/release-4
 sudo apt update
 sudo apt install fish
 ```
 
-# install omf
+# install fisher
 ```bash
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
 ```
 
-# add this to .bashrc or .profile
+# ask fisher to install/update all packages
+```bash
+fisher update
+```
+
+# add this to .bashrc or .profile to run fish at startup
 ```bash
 if [ -t 1 ] && command -v fish &> /dev/null; then
     exec fish
