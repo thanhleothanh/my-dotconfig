@@ -8,10 +8,6 @@ sudo apt install fish
 # install fisher
 ```bash
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source
-```
-
-# ask fisher to install/update all packages
-```bash
 fisher update
 ```
 
